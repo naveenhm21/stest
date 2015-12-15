@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GTW" duration-ms="51586" started-at="2015-12-15T12:48:54Z" finished-at="2015-12-15T12:49:45Z">
+    <groups>
+      <group name="sample">
+        <method signature="SampleTest.colTest()[pri:0, instance:com.col.gtw.tests.SampleTest@740dc753]" name="colTest" class="com.col.gtw.tests.SampleTest"/>
+      </group> <!-- sample -->
+    </groups>
+    <test name="Sample Tests" duration-ms="51586" started-at="2015-12-15T12:48:54Z" finished-at="2015-12-15T12:49:45Z">
+      <class name="com.col.gtw.tests.SampleTest">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:com.col.gtw.tests.SampleTest@740dc753]" name="suiteSetUp" is-config="true" duration-ms="18324" started-at="2015-12-15T18:18:35Z" finished-at="2015-12-15T18:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="colTest()[pri:0, instance:com.col.gtw.tests.SampleTest@740dc753]" name="colTest" duration-ms="48554" started-at="2015-12-15T18:18:54Z" finished-at="2015-12-15T18:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colTest -->
+        <test-method status="PASS" signature="testTierDown()[pri:0, instance:com.col.gtw.tests.SampleTest@740dc753]" name="testTierDown" is-config="true" duration-ms="3005" started-at="2015-12-15T18:19:42Z" finished-at="2015-12-15T18:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTierDown -->
+        <test-method status="PASS" signature="suiteTierDown()[pri:0, instance:com.col.gtw.tests.SampleTest@740dc753]" name="suiteTierDown" is-config="true" duration-ms="1665" started-at="2015-12-15T18:19:45Z" finished-at="2015-12-15T18:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTierDown -->
+      </class> <!-- com.col.gtw.tests.SampleTest -->
+    </test> <!-- Sample Tests -->
+  </suite> <!-- GTW -->
+</testng-results>

@@ -1,0 +1,3 @@
+username,password,errorID
+wrongname@yahoo.com,123abc,credentials.errors
+,123abc,emailAddress.errors

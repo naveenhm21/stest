@@ -1,0 +1,18 @@
+<suite name="GTW">
+<listeners>
+       <listener class-name="com.col.gtw.core.TestListener"/>
+  </listeners>
+  
+	<test name="Sample Tests" preserve-order="true">
+		  <groups>
+			<run>
+		   		<exclude name="others" />
+		   		<!--  <exclude name="sample"/>  --> 
+			</run>
+		</groups>
+		
+		<classes>
+			<class name="com.col.gtw.tests.SampleTest"/>
+		</classes>
+	</test>
+</suite>

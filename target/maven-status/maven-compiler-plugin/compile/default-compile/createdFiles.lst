@@ -1,0 +1,10 @@
+com\col\gtw\tests\TestBase.class
+com\col\gtw\tests\SampleTest.class
+com\col\gtw\pof\LoginPage.class
+com\col\gtw\core\Utils.class
+com\col\gtw\pof\Navigation.class
+com\col\gtw\core\CoreBase.class
+com\col\gtw\pof\WebinarsPage.class
+com\col\gtw\pof\SchedulePage.class
+com\col\gtw\pof\ManageWebinar.class
+com\col\gtw\core\TestListener.class

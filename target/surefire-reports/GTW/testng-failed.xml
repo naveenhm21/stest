@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [GTW]">
+  <listeners>
+    <listener class-name="com.col.gtw.core.TestListener"/>
+  </listeners>
+  <test name="Sample Tests(failed)">
+    <groups>
+      <run>
+        <exclude name="trial"/>
+        <exclude name="test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.col.gtw.tests.SampleTest">
+        <methods>
+          <include name="testTierDown"/>
+          <include name="suiteTierDown"/>
+          <include name="suiteSetUp"/>
+          <include name="colTest"/>
+        </methods>
+      </class> <!-- com.col.gtw.tests.SampleTest -->
+    </classes>
+  </test> <!-- Sample Tests(failed) -->
+</suite> <!-- Failed suite [GTW] -->

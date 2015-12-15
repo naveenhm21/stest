@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GTW" duration-ms="11339" started-at="2015-12-15T17:04:17Z" finished-at="2015-12-15T17:04:28Z">
+    <groups>
+      <group name="test">
+        <method signature="SampleTest.invalidUserNamePasswdSignInSample(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.col.gtw.tests.SampleTest@259f1b1d]" name="invalidUserNamePasswdSignInSample" class="com.col.gtw.tests.SampleTest"/>
+      </group> <!-- test -->
+    </groups>
+    <test name="Sample Tests" duration-ms="11339" started-at="2015-12-15T17:04:17Z" finished-at="2015-12-15T17:04:28Z">
+      <class name="com.col.gtw.tests.SampleTest">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:com.col.gtw.tests.SampleTest@259f1b1d]" name="suiteSetUp" is-config="true" duration-ms="14991" started-at="2015-12-15T22:34:02Z" finished-at="2015-12-15T22:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="invalidUserNamePasswdSignInSample(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.col.gtw.tests.SampleTest@259f1b1d]" name="invalidUserNamePasswdSignInSample" duration-ms="3019" started-at="2015-12-15T22:34:17Z" data-provider="loginError" finished-at="2015-12-15T22:34:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongname@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[credentials.errors]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserNamePasswdSignInSample -->
+        <test-method status="PASS" signature="testTierDown()[pri:0, instance:com.col.gtw.tests.SampleTest@259f1b1d]" name="testTierDown" is-config="true" duration-ms="3184" started-at="2015-12-15T22:34:20Z" finished-at="2015-12-15T22:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTierDown -->
+        <test-method status="PASS" signature="invalidUserNamePasswdSignInSample(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.col.gtw.tests.SampleTest@259f1b1d]" name="invalidUserNamePasswdSignInSample" duration-ms="2327" started-at="2015-12-15T22:34:23Z" data-provider="loginError" finished-at="2015-12-15T22:34:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emailAddress.errors]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserNamePasswdSignInSample -->
+        <test-method status="PASS" signature="testTierDown()[pri:0, instance:com.col.gtw.tests.SampleTest@259f1b1d]" name="testTierDown" is-config="true" duration-ms="2763" started-at="2015-12-15T22:34:25Z" finished-at="2015-12-15T22:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTierDown -->
+        <test-method status="PASS" signature="suiteTierDown()[pri:0, instance:com.col.gtw.tests.SampleTest@259f1b1d]" name="suiteTierDown" is-config="true" duration-ms="1540" started-at="2015-12-15T22:34:28Z" finished-at="2015-12-15T22:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTierDown -->
+      </class> <!-- com.col.gtw.tests.SampleTest -->
+    </test> <!-- Sample Tests -->
+  </suite> <!-- GTW -->
+</testng-results>
